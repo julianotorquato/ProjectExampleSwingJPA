@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ProjectExampleSwingJPA</groupId>
-  <artifactId>br.com.energia.si.poo2.swing</artifactId>
+  <groupId>br.com.energia.si.poo2.swing</groupId>
+  <artifactId>ProjectExampleSwingJPA</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
   </repositories>
 
     <dependencies>
-        <!-- API do JPA 2.1 - Não existe uma distribuição oficial-->  
+        <!-- API do JPA 2.1 - Nï¿½o existe uma distribuiï¿½ï¿½o oficial-->  
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
@@ -51,13 +51,13 @@
         </dependency> 
     
         
-        <!-- Driver JDBC do PostgreSQL 
+<!--         Driver JDBC do PostgreSQL  -->
         
         <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>9.1-901-1.jdbc4</version>
-        </dependency> -->
+        </dependency>
        
         <!-- Bean Validation 1.1 -->
 <!--        <dependency>
@@ -75,7 +75,7 @@
             <scope>runtime</scope>
         </dependency>-->
 
-        <!-- Implementação de EL para uso do Hibernate Validator-->
+        <!-- Implementaï¿½ï¿½o de EL para uso do Hibernate Validator-->
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>el-impl</artifactId>
